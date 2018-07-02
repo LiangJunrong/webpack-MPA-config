@@ -2,7 +2,7 @@ jsliang的webpack多页面配置
 ======
 
 ## ☆ 说明：
-· 码字不易，配置更难，进来看到希望能点个star；如果对你有帮助，请点个star；如果有疑问，请提交Issue或者加jsliang的QQ：1741020489. 谢谢支持~  
+· 码字不易，配置更难，进来看到希望能点个`star`；如果对你有帮助，请点个`star`；如果有疑问，请提交`Issue`或者加jsliang的QQ：1741020489. 谢谢支持~  
 · jsliang从webpack的`4.10.0`出发，在<a href="https://github.com/LiangJunrong/webpack-study" >webpack-study</a>项目中编写了webpack的学习文档，如果你还没接触过webpack，希望你看完我的学习Word能有所感悟，然后该webpack-MPA-config（webpack多页面配置）项目发布到GitHub上时webpack版本已到`v4.14.0`。是的，webpack升级之快难以想象。  
 
 ## ☆ 使用方法：
