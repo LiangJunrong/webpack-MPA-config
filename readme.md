@@ -1,8 +1,11 @@
 jsliang的webpack多页面配置
 ======
 
+## 思路图：
+![Image text](https://github.com/LiangJunrong/webpack-MPA-config/blob/master/project.png)
+
 ## ☆ 说明：
-· 码字不易，配置更难，进来看到希望能点个`star`；如果对你有帮助，请点个`star`；如果有疑问，请提交`Issue`或者加jsliang的QQ：1741020489. 谢谢支持~  
+· 码字不易，配置更难，进来看到希望能点个`star`；如果对你有帮助，请点个`star`；如果有疑问，请提交`Issue`或者加jsliang的`QQ：1741020489`. 谢谢支持~  
 · jsliang从webpack的`4.10.0`出发，在<a href="https://github.com/LiangJunrong/webpack-study" >webpack-study</a>项目中编写了webpack的学习文档，如果你还没接触过webpack，希望你看完我的学习Word能有所感悟，然后该webpack-MPA-config（webpack多页面配置）项目发布到GitHub上时webpack版本已到`v4.14.0`。是的，webpack升级之快难以想象。  
 
 ## ☆ 使用方法：
@@ -20,7 +23,7 @@ jsliang的webpack多页面配置
 ### - 共有功能 | webpack.common.js
 · 按模块划分目录。即在src文件夹下新增index的文件夹就是新增index模块，然后index下按index.html/index.css/index.js设置（index.js需require index.css，html正常使用），即可按模块划分目录使用。  
 · 开发或者生产模式打包前自动删除dist文件夹。妈妈再也不用担心我手动删除dist目录删到手软啦~  
-· 能处理<br>
+· 能处理一下文件：<br>
 1、.htm/.html文件、<br>
 2、.css/.less文件、<br>
 3、.jpg/.jpeg/.png/.gif/.svg文件、<br>
