@@ -1,4 +1,4 @@
-jsliang的基础webpack配置
+jsliang的webpack多页面配置
 ======
 
 ## ☆ 说明：
