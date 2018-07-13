@@ -1,0 +1,8 @@
+.nav-picture {
+    color: black;
+}
+.url-img {
+    width: 200px;
+    height: 200px;
+    background: url("../assets/images/2.png") no-repeat center;
+}

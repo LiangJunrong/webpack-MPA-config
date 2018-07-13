@@ -1,0 +1,15 @@
+#include("../assets/html/header.html");
+
+        <div class="tips">
+            <h3>在这里，将解决HTML中的&lt;img&gt;标签和CSS中的background:url()的冲突。</h3>
+            <hr>
+        </div>
+        <div class="picture">
+            <p>由于没有完美解决，目前小于200K的图片都将打包成base64引入到HTML代码中，如果CSS引用的背景图片不能超过200K，那么webpack打包的路径将不对（但HTML引用的图片是可以的），造成图片无法显示。</p>
+            <p>下面是&lt;img&gt;标签引用的图片：</p>
+            <img src="../assets/images/1.png">
+            <p>下面是background:url()引用的图片：</p>
+            <div class="url-img"></div>
+        </div>
+
+#include("../assets/html/footer.html");

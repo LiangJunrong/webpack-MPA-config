@@ -1,7 +1,20 @@
-body {
+/* 共用样式 */
+body, ul, li, a {
     margin: 0;
     padding: 0;
 }
+.text-center {
+    text-align: center;
+}
+.text-author {
+    color: rgb(255, 166, 0);
+    font-size: 1.2em;
+}
+h3, h4, p {
+    text-indent: 2em;
+}
+
+/* 头部 */
 .container {
     width: 1000px;
     margin: 0 auto;
@@ -10,7 +23,7 @@ ul {
     margin-top: 0;
     background: deepskyblue;
     height: 54px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 ul li {
     list-style: none;
@@ -18,16 +31,22 @@ ul li {
 ul li a {
     text-decoration: none;
     float: left;
-    color: rgb(238, 255, 0);
+    color: rgb(121, 120, 120);
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
 }
-ul li:first-child {
-    margin-left: 390px;
+ul li a:hover {
+    color: black;
 }
+ul li:first-child {
+    margin-left: 10px;
+}
+
+/* 底部 */
 .footer {
     text-align: center;
     margin-top: 30px;
 }
+

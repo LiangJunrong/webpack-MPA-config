@@ -1,0 +1,33 @@
+.nav-less {
+  color: black;
+}
+.tips {
+  margin-top: 30px;
+}
+.less {
+  margin-bottom: 100px;
+}
+.less .text-author {
+  color: #ff006a;
+  font-size: 1.5em;
+}
+.less a {
+  text-decoration: none;
+  color: #fff;
+  background: deepskyblue;
+  border: 1px solid #05b0e9;
+  border-radius: 5px;
+  padding: 5px;
+}
+.less a:hover {
+  background: #0051ff;
+}
+.less .text-less {
+  color: deepskyblue;
+}
+.less .text-warning {
+  font-weight: bold;
+}
+.less .text-warning .text-time {
+  color: #ffbc04;
+}
