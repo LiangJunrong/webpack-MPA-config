@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MPA的webpack基础配置
 ======
 
@@ -12,6 +13,22 @@ MPA的webpack基础配置
 安装依赖包：&ensp;&ensp;&ensp;&ensp;npm i  
 进入开发模式：&ensp;&ensp;npm run dev  
 打包成静态文件：npm run build  
+=======
+jsliang的webpack多页面配置
+======
+
+## 思路图：
+![Image text](https://github.com/LiangJunrong/webpack-MPA-config/blob/master/project.png)
+
+## ☆ 说明：
+· 码字不易，配置更难，进来看到希望能点个`star`；如果对你有帮助，请点个`star`；如果有疑问，请提交`Issue`或者加jsliang的`QQ：1741020489`. 谢谢支持~  
+· jsliang从webpack的`4.10.0`出发，在<a href="https://github.com/LiangJunrong/webpack-study" >webpack-study</a>项目中编写了webpack的学习文档，如果你还没接触过webpack，希望你看完我的学习Word能有所感悟，然后该webpack-MPA-config（webpack多页面配置）项目发布到GitHub上时webpack版本已到`v4.14.0`。是的，webpack升级之快难以想象。  
+
+## ☆ 使用方法：
+· 安装依赖包：     npm i  
+· 进入开发模式：   npm run dev  
+· 打包成静态文件： npm run build  
+>>>>>>> 41829c1221e75376be454653abd3552928fb4116
 
 ## ☆ 配置目的：
 · 实现live-server的实时重新加载(live reloading)功能  
@@ -23,17 +40,30 @@ MPA的webpack基础配置
 ### - 共有功能 | webpack.common.js
 · 按模块划分目录。即在src文件夹下新增index的文件夹就是新增index模块，然后index下按index.html/index.css/index.js设置（index.js需require index.css，html正常使用），即可按模块划分目录使用。  
 · 开发或者生产模式打包前自动删除dist文件夹。妈妈再也不用担心我手动删除dist目录删到手软啦~  
+<<<<<<< HEAD
 · 能处理<br>
 .htm/.html、<br>
 .css/.less、<br>
 .jpg/.jpeg/.png/.gif/.svg、<br>
 .woff/.woff2/.eot/.ttf/.otf、<br>
 .js文件（ES6/7未作处理，使用ES6/7可能有bug）。  
+=======
+· 能处理一下文件：<br>
+1、.htm/.html文件、<br>
+2、.css/.less文件、<br>
+3、.jpg/.jpeg/.png/.gif/.svg文件、<br>
+4、.woff/.woff2/.eot/.ttf/.otf文件、<br>
+5、.js文件（ES6/7未作处理，使用ES6/7可能有bug）。  
+>>>>>>> 41829c1221e75376be454653abd3552928fb4116
 
 ### - 开发模式 | webpack.dev.js
 · 拥有共有功能所有功能  
 · 使用npm run dev能启动开发模式，能自动检查错误并报错：  
+<<<<<<< HEAD
 · 默认启动localhost:8080，如果想配置局域网（WIFI），通过其他电脑、手机查看的话，请开启host选项，并设置值为WiFi的IPV4地址，设置后访问：http://192.168.1.107:8080 即可（注：如果没正确设置，将无法正常启动）。  
+=======
+· 默认启动localhost:8080，如果想配置局域网（WIFI），通过其他电脑、手机查看的话，请开启host选项，并设置值为WiFi的IPV4地址，设置后访问： `http://192.168.1.107:8080` 即可（注：如果没正确设置，将无法正常启动）。  
+>>>>>>> 41829c1221e75376be454653abd3552928fb4116
 
 ### - 生产模式 | webpack.prod.js
 · 拥有共有功能所有功能  
