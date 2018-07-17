@@ -1,6 +1,6 @@
 {
   "name": "webpack-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The basic webpack configuration by jsliang",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
