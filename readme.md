@@ -2,7 +2,7 @@ MPA的webpack基础配置
 ======
 
 ## ☆ 说明：
-· jsliang从webpack的4.10.0出发，在<a href="https://github.com/LiangJunrong/webpack-study"> webpack-study </a>项目中编写了webpack的学习文档，如果你还没接触过webpack，希望你看完我的学习Word能有所感悟，然后该webpack-MPA-config（webpack多页面配置）项目发布到GitHub上时webpack版本已到v4.14.0（本次上传版本升级到V4.16.0）。是的，变化之快难以想象。  
+· jsliang从webpack的4.10.0出发，在<a href="https://github.com/LiangJunrong/webpack-study"> webpack-study </a>项目中编写了webpack的学习文档，如果你还没接触过webpack，希望你看完我的学习Word能有所感悟，然后该webpack-MPA-config（webpack多页面配置）项目初次发布到GitHub上时webpack版本已到v4.14.0（本次上传版本为V4.16.1）。是的，变化之快难以想象。  
 · 码字不易，进来看到希望你能点个star；如果该配置对你有帮助或有所启发，请点个star；如果有疑问，请提交Issue或者加jsliang的QQ：1741020489. 谢谢支持~  
 
 ## ☆ 思路图：

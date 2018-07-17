@@ -10,3 +10,17 @@
 .text1 {
     font-family: 'MyFont';
 }
+.icon-fonts {
+    width: 100%;
+}
+.icon1, .icon2, .icon3, .icon4, .icon5, .icon6 {
+    width: 15%;
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+h4 a {
+    text-decoration: none;
+    color: deepskyblue;
+}
