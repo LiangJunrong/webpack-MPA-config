@@ -1,6 +1,6 @@
 {
   "name": "webpack-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "The basic webpack configuration by jsliang",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
@@ -13,7 +13,6 @@
   "author": "jsliang",
   "license": "ISC",
   "devDependencies": {
-    "art-template-loader": "^1.4.3",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
