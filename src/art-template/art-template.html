@@ -1,0 +1,37 @@
+<% include("../assets/html/footer.art") %>
+
+        <div class="tips">
+            <h3>在这里，我们将介绍JavaScript模板引擎art-template。<a href="index.html">返回首页</a></h3>
+            <hr>
+        </div>
+        <div class="ckeditor">
+            <p>昨天（2018年8月6日）在jspang的微信群上，迷迷糊糊间好像因为随意评价art-template好像把 照无眠大哥 惹怒了（后来根据群友的话，得知真实原因是别人问问题，我不帮忙还捣乱，怪我怪我），于是今早醒来看了看聊天记录赶紧补充下art-template的知识，顺带看看对 照无眠大哥 有没有帮助吧:</p>
+            <p>丶art-template的github: <a href="https://github.com/aui/art-template" target="_blank">点击跳转</a></p>
+            <p>丶art-template的简略介绍(★): <a href="https://www.cnblogs.com/qinbb/p/7240627.html" target="_blank">点击跳转</a></p>
+            <p>丶art-template的升级版攻略(★★★): 
+                &nbsp;&nbsp;<a href="https://www.jianshu.com/p/b5dffff259be" target="_blank">攻略1</a>
+                &nbsp;&nbsp;<a href="https://www.jianshu.com/p/e7f3d0c93ed3" target="_blank">攻略2</a>
+            </p>
+            <p>
+                丶art-template如何与webpack结合紧急开发(★★★★★):
+                &nbsp;&nbsp; <a href="http://aui.github.io/art-template/webpack/" target="_blank">官方webpack文档</a>
+                &nbsp;&nbsp; <a href="https://github.com/LiangJunrong/webpack-MPA-config" target="_blank">个人webpack配置</a>
+            </p>
+            <p>
+                在这里说下为什么使用上面两个地址:在7月初的时候，公司要求紧急开发把一个大型站点临摹下来，当时头皮发麻直接拿刚学的webpack4就上了，实现的功能有: <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;  · 直接引用html模板，可直接在html文件中引用常用的html文件；<br>
+                &nbsp;&nbsp;&nbsp;&nbsp; · 通过vs code的live-share插件与自己配置的webpack局域网共享html视图 ……
+            </p>
+            <p>
+                所以，换位思考，如果是我被要求再次紧急开发的话，可能直接在原有的自己配置的webpack上直接引用art-template loader，因为已经实现引用html模板等便捷功能了，再引用这个js模板引擎可以实现更快速的开发
+            </p>
+            <p>
+                最后，温馨提示下:使用art-template毕竟是需要学习成本的，如果了解不充分，可能会导致有疏漏。然后在上面的简书文章中看到有说法是该模板引擎作者喜欢改名字，乱删文件……看百度上关于这个模板引擎的文章似乎都不是很深入，所以还是多看它官方github吧，毕竟7000多star了。
+            </p>
+            <p>如上，jsliang。——08/07/08:00</p>
+            <p>简要PS: art-template简单来说就是把以前你通过字符串拼接，再用 js append 到 dom 然后再填充数据的方式转变为另外一种便于阅读，代码优雅，性能更快的模板引擎。当然功能肯定不止这个，具体的撸最开头的github地址就好啦~</p>
+            <br>
+            <p>然后，我尝试了下弄到项目来，但发现没我想的那么简单，所以目前暂且放弃在webpack项目中引用art-template了，有时间的大佬可以先去试试：<a href="https://segmentfault.com/q/1010000009656768">编译输出HTML到本地</a></p>
+        </div>
+
+<% include("../assets/html/footer.art") %>

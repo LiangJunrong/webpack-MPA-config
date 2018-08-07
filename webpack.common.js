@@ -98,6 +98,15 @@ module.exports = {
                     limit: 100 * 1024,
                     name: 'fonts/[name].[ext]'
                 }
+            },
+            // .art-template引擎模板
+            {
+                test: /\.art$/,
+                loader: 'art-template-loader',
+                options: {
+                    htmlResourceRoot: __dirname,
+                    root: path.resolve(__dirname)
+                }
             }
         ]
     }
