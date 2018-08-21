@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="./js/self-adaption.js"></script>
+</head>
+<body>
+  <div class="index_body">
+    <div class="index_content">
+      <ul>
+        <li>尊敬的星级用户：</li>
+        <li>jsliang为八月生日的您送上最诚挚的祝福！祝您生日快乐、阖家幸福、心想事成！</li>
+        <li>至此奉上祝福礼物，直接点击登记确认信息进行<span>流量兑换</span>！礼轻情意重~又是元气满满的一天哦！</li>
+      </ul>
+      <div class="btn btn1 imgCss">
+        <img src="./img/btn.png" alt="登记按钮">
+      </div>
+    </div>
+    <div class="index_bottom" id="rules">
+      活动说明
+    </div>
+  </div>
+  <!-- 弹窗 -->
+  <div class='pop'>
+    <!-- 活动说明 -->
+    <img  class="mask_rule none" src="./img/mask_rule.png" alt="活动说明">
+    <!-- 填表 -->
+    <div class="active_bg none check_in" >
+      <img src="./img/info.png" alt="">
+      <div >
+        <p>姓名：</p>
+        <input id="name" type="text">
+      </div>
+      <div >
+        <p>电话：</p>
+        <input id="num" type="number" max="11">
+      </div>
+      <img src="./img/sure_btn.png" alt="确定" class="btn">
+    </div>
+  </div>
+</body>
+</html>

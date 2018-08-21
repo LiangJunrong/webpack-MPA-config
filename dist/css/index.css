@@ -1,0 +1,178 @@
+html,body,.index_body{
+  min-width: 10.8rem;
+  height: 100%;
+}
+.block{
+  display: block!important;
+}
+.none{
+  display: none;
+}
+.index_body{
+  background-image: url('../img/bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.imgCss img{
+  width:inherit;
+  height: inherit;
+}
+/* 949 × 596 */
+.index_content{
+  width:9.49rem;
+  height: 5.96rem;
+  background-image: url('../img/border.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 2rem .7rem;
+  line-height: .64rem;
+  color: #fd1a19;
+  font-size: .36rem;
+  position: relative;
+  top: 5.43rem;
+}
+.index_content span{
+  border: 5px solid #feb21e;
+  border-left: 0;
+  border-top:0;
+  border-right: 0;
+}
+/* 612 × 143 */
+.btn{
+  width: 6.12rem;
+  height: 1.43rem;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 5.30rem;
+}
+/* 949 × 80 */
+.index_bottom{
+  width: 9.49rem;
+  line-height: .8rem;
+  height: .8rem;
+  background-image: url('../img/border_bottom.png');
+  margin: auto;
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2.25rem;
+  color:white;
+  font-size: .4rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* 弹窗 */
+#pop{
+  background: red;
+}
+.pop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0,0,0,.5);
+  display:  none;
+}
+/* 970 × 1403 */
+/* 规则说明 */
+.mask_rule{
+  width: 9.7rem;
+  height: 14.03rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* 1080 × 1256 */
+.active_bg{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url('../img/dalo.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 10.8rem;
+  height: 12.56rem;
+  padding-top: 2.8rem;
+  box-sizing: border-box;
+  font-size: .6rem;
+  color:#fab117;
+}
+.active_bg .btn{
+  top: 7.45rem;
+  /* 465 × 128 */
+  width: 4.65rem!important;
+  height: 1.28rem!important;
+}
+.active_bg img{
+  margin: auto;
+  display: block;
+}
+.active_bg p{
+  box-sizing: border-box;
+  padding: .6rem 1.1rem;
+}
+/* 成功 */
+.congrats img,.congrats2 img{
+  /* 507 × 138 */
+  width: 5.07rem;
+  height: 1.38rem;
+}
+.sorry img{
+  /* 510 × 137 */
+  width: 5.1rem;
+  height: 1.37rem;
+}
+.success{
+  text-align: center;
+}
+.success img{
+  /* 668 × 137 */
+  width: 6.68rem;
+  height: 1.37rem;
+}
+/* 登记 */
+.check_in img{
+  /* 351 × 77 */
+  position: absolute;
+  top: 1.8rem;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 3.51rem ;
+  height: .77rem;
+}
+.check_in{
+  font-size: .5rem;
+}
+.check_in div{
+  box-sizing: border-box;
+  padding-left: 1.55rem;
+  padding-top: .4rem;
+}
+.check_in input{
+  width: 7.65rem;
+  height: .78rem;
+  border:1px solid #fab117;
+  box-sizing: border-box;
+  padding-left: .2rem;
+}
+.check_in p{
+  padding: 0;
+}

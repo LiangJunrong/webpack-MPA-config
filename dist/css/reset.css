@@ -1,0 +1,164 @@
+/*
+* @Author: anchen
+* @Date:   2016-10-25 15:04:44
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-08-11 14:46:14
+*/
+* {-webkit-tap-highlight-color: rgba(0,0,0,0);}
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;}
+em{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize:none;overflow: auto;}
+html,body{
+    font-size: 0.48rem;
+}
+.floatR{float:right;}
+.floatL{float:left;}
+.pr{position:relative;}
+.pa{position: absolute;}
+.ellipsis {overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.ellipsis-2 {display:-webkit-box;overflow:hidden;white-space:normal!important;text-overflow:ellipsis;word-wrap:break-word;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.ellipsis-3 {display:-webkit-box;overflow:hidden;white-space:normal!important;text-overflow:ellipsis;word-wrap:break-word;-webkit-line-clamp:3;-webkit-box-orient:vertical;}
+.width100{width:100%}
+.clear {clear: both; height: 0; overflow: hidden; display: block; line-height: 0;}
+.clearfix:after {clear: both; font-size: 0; height: 0; display: block; visibility: hidden; content:" "; line-height: 0;}
+.clearfix {zoom:1;}/* for IE6 IE7 */
+/* 模块 */
+.dalo-mask{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  /* background: red; */
+}
+.mask{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.dalo-content{
+  width: 990px;
+  height: 600px;
+  background: #ecf0f5;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 30px;
+}
+.title{
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.btn_content{
+  display: inline-block;
+  margin: 0 15px;
+  color:#666666;
+}
+.list_module{
+  width: 100%;
+  /* background: red; */
+  height: 420px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+}
+.list_head{
+  background: #f2f2f2;
+  height: 30px;
+}
+.list_head th{
+  height: 30px;
+}
+.list_module tbody{
+  font-size: 12px;
+  text-align: center;
+}
+.list_module tbody td{
+  padding: 10px 0;
+}
+.list_module tbody tr{
+  background: #ffffff;
+}
+.list_module tbody tr:nth-child(odd){
+  background: #f4fafe;
+}
+#bgDiv {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.2; /*设置不透明度，即可以看到层下面的内容，但是由于层的遮挡，背景是不可以进行操作的*/
+    display: none;
+}
+
+#fgDiv {
+  position: absolute;
+  width: 610px;
+  height: 380px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin: auto;
+  display: none;
+
+}
+#fgDiv .content{
+  box-sizing: border-box;
+  padding: 30px 45px 0;
+}
+.hint{
+  font-size: 14px;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  padding: 6px 15px;
+}
+
+#fgDiv input{
+  margin: 0 15px;
+}
+.textarea{
+  margin: 30px 0 10px;
+  position: relative;
+  box-sizing: border-box;
+  padding-left:  63px;
+
+}
+.textarea span{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#fgDiv .bottom{
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 48px;
+}
+#fgDiv .bottom input{
+  padding: 2px 35px;
+  border-radius: 5px;
+}
+#btnSave{
+  background: #666666;
+  border:1px solid #666666;
+  color: white;
+}
+#btnCanle{
+  border:1px solid #999999;
+  background: white;
+  /* color: white; */
+}
